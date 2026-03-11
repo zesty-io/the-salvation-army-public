@@ -1,7 +1,7 @@
 <script>
     // Configuration
 const CONFIG = {
-    GOOGLE_MAPS_API_KEY: 'AIzaSyCDt9Xkd1uzYFlMuauhWdZW4XWCmYcA3mU',
+    GOOGLE_MAPS_API_KEY: '{api}',
     QB_TOKEN: 'b5pbkw_mn6f_0_d67g9cncyknfqjdun7kwsdzrkqqb',
     QB_REALM: 'saapps.quickbase.com',
     QB_TABLE_ID: 'bvcc49pvf',
