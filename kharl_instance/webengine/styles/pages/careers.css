@@ -1,0 +1,92 @@
+.employees{
+    padding: 4rem;
+}
+
+.employee-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.employee-cards>*:not(:last-child){
+    margin-bottom: 3rem;
+}
+
+.benefits-container{
+    padding: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-gray-lighter);
+}
+
+.benefits-container h1{
+    margin-bottom: 3rem;
+}
+
+
+.benefits-container .benefits{
+       padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+.benefits-container .benefits >*:not(:last-child){
+        margin-bottom: 2rem;
+    }
+
+    #equal-employment::part(body){
+        padding: 8rem 2rem !important;
+        text-align: center;
+    }
+    #work::part(body){
+        padding: 8rem 2rem !important;
+        text-align: center;
+    }
+
+
+@media (min-width: 1280px) {
+
+   .employee-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .employee-cards > *{
+        margin-bottom: 0rem !important;
+    }
+
+    #equal-employment::part(text-content){
+        padding: 0 2rem !important;
+    }
+
+    #equal-employment::part(subtitle){
+        padding: 0 30rem !important;
+    }
+   
+    #work::part(text-content){
+        padding: 0 3rem !important;
+    }
+
+    #work::part(subtitle){
+        padding: 0 20rem !important;
+    }
+
+    .benefits-container .benefits{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .benefits-container {
+        padding: 6rem;
+    }
+
+    .benefits-container .benefits>*:not(:last-child){
+        margin-right: 2rem;
+        margin-bottom: 0rem;
+    }
+}
+   

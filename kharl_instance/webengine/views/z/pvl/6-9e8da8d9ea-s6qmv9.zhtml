@@ -1,0 +1,185 @@
+<div className={styles.pvlRoot}>
+	<hero-module
+  title="Marketing Title"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Subtitle of the hero goes here"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA      </button>
+    </div>
+  </div>
+</hero-module>
+	<header-location-module
+  title="Salvation Army National"
+  subtitle="Find my Local Salvation Army"
+>
+  <ul class="header-location__list">
+      <li>
+      <tsa-dropdown title="Our Services">
+        <tsa-dropdown-item>Item #1</tsa-dropdown-item>
+        <tsa-dropdown-item>Item #2</tsa-dropdown-item>
+        <tsa-dropdown-item>Item #3</tsa-dropdown-item>
+      </tsa-dropdown>
+    </li>
+    <li>
+      <tsa-dropdown title="About Us">
+        <tsa-dropdown-item>Who We Are</tsa-dropdown-item>
+        <tsa-dropdown-item>Employment Opputunities</tsa-dropdown-item>
+        <tsa-dropdown-item>History</tsa-dropdown-item>
+        <tsa-dropdown-item>Leadership</tsa-dropdown-item>
+        <tsa-dropdown-item>Our Presence</tsa-dropdown-item>
+      </tsa-dropdown>
+    </li>
+    <li>
+     <tsa-dropdown title="Ways to Give">
+        <tsa-dropdown-item>Ways to Support</tsa-dropdown-item>
+        <tsa-dropdown-item>Donate Money</tsa-dropdown-item>
+        <tsa-dropdown-item>Donate Goods</tsa-dropdown-item>
+        <tsa-dropdown-item>Volunteer</tsa-dropdown-item>
+        <tsa-dropdown-item>Vehicle Donation</tsa-dropdown-item>
+        <tsa-dropdown-item>Become a Fundriser</tsa-dropdown-item>
+      </tsa-dropdown>
+    </li>
+    <li>
+      <a href="/">Events</a>
+    </li>
+    <li>
+      <a href="/">Contact Us</a>
+    </li>
+  </ul>
+</header-location-module>
+
+	
+<stats-module title="[FPO] Stats/Facts">
+  <div slot="content">
+    <div id="content">
+      <stat-image-card-module
+        class="mb-4"
+        title="[FPO] 1,000,000 Meals Served"
+        imageUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+      >
+        <p class="tsa-text">
+          Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididun ut labore et dolore magna aliqua. Ut
+        </p>
+      </stat-image-card-module>
+      <stat-image-card-module
+        title="[FPO] 1,000,000 Meals Served"
+        imageUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+      >
+        <p class="tsa-text">
+          Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididun ut labore et dolore magna aliqua. Ut
+        </p>
+      </stat-image-card-module>
+      <stat-image-card-module
+        title="[FPO] 1,000,000 Meals Served"
+        imageUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+      >
+        <p class="tsa-text">
+          Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididun ut labore et dolore magna aliqua. Ut
+        </p>
+      </stat-image-card-module>
+    </div>
+
+    <div id="cta">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--outline"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</stats-module>
+	<div class="py-5 text-center carousel-module">
+  <h2 class="tsa-title  m-auto py-5">[FPO] Featured Augusta Capital Region Corps Stories of Homelessness</h2>
+  <swiper-container class=" pb-5" init="false">
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+  </swiper-container>
+  <a class="text-black text-decoration-none fs-5" href="#">View All Stories</a>
+</div>
+	<hero-module
+  title="Marketing Title"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Subtitle of the hero goes here"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA      </button>
+    </div>
+  </div>
+</hero-module>
+</div>

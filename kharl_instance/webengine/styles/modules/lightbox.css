@@ -1,0 +1,12 @@
+#open {
+    margin-bottom: 2rem;
+}
+#lightbox__content p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#lightbox__content #lightbox__content__cta button:first-of-type{
+    margin-bottom: 2rem;
+}

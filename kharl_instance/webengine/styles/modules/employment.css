@@ -1,0 +1,64 @@
+.employment-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--color-gray-medium);
+}
+
+.employment-container .tsa-text {
+    text-align: center;
+}
+
+.employment-container>* {
+    margin-bottom: 2rem;
+}
+
+.employment-container .card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+.employment-container .tsa-card {
+    background-color: #FFF;
+
+}
+
+.employment-container .tsa-card h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.employment-container .tsa-card span {
+    font-size: 1.6rem;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.employment-container .tsa-card p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.employment-container .tsa-card>*:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.employment-container #view-more-btn {
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+
+@media (min-width: 1280px) {
+    .employment-container .card-container {
+        grid-template-columns: auto auto;
+    }
+}

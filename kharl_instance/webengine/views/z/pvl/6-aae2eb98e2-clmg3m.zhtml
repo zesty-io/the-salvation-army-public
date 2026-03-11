@@ -1,0 +1,160 @@
+<div className={styles.pvlRoot}>
+	<hero-module
+  title="Marketing Message/Key Moments/Events"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Subtitle of the hero goes here"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+    </div>
+  </div>
+</hero-module>
+	<div class="p-5">
+  <h2 class="tsa-title w-100 py-5">Augusta Capital Region Corps Homeless Shelter Program Information</h2>
+  <tsa-accordion>
+    <tsa-accordion-item heading="Permanent Supportive Housing">
+      <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+      <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+    <tsa-accordion-item heading="Traditional Housing">
+      <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+      <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+    <tsa-accordion-item heading="Homeless Shelter Service">
+      <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+      <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+  </tsa-accordion>
+</div>
+	<image-button-text id="image-button-text-1" title="[FPO] Homelessness can happen to anyone." imageUrl="https://w1w702z1.media.zestyio.com/image-sample-2.png" imagePosition="right">
+    <div id="ibt">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna     aliqua.</p>
+    </div>
+</image-button-text>
+	<div class="stats-number">
+  <h3 class="tsa-title w-50 m-auto py-5">STATS</h2>
+  <div class="stats-number__wrapper">
+    <stats-number 
+      heading="1 in 30" 
+      content="Every year, 1 out of 30 children experiences homelessness. "
+    ></stats-number>
+    <stats-number 
+      heading="1 in 30" 
+      content="Every year, 1 out of 30 children experiences homelessness. "
+    ></stats-number>
+    <stats-number 
+      heading="1 in 30" 
+      content="Every year, 1 out of 30 children experiences homelessness. "
+    ></stats-number>
+  </div>
+</div>
+	<hero-module
+  title="Marketing Message/Key Moments/Events"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Subtitle of the hero goes here"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+    </div>
+  </div>
+</hero-module>
+	<div class="py-5 text-center">
+  <h2 class="tsa-title w-50 m-auto py-5">[FPO] Featured Augusta Capital Region Corps Stories of Homelessness</h2>
+  <swiper-container class=" pb-5" init="false">
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+  </swiper-container>
+  <a class="text-black text-decoration-none fs-5" href="#">View All Stories</a>
+</div>
+	 <tsa-services listTitle="[FPO] All Services" class="collapse py-5" id="servicesList">
+       <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Homeless Shelter" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Food Pantry" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+        <service-item imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png" serviceTitle="Service" href="#"></service-item>
+   </tsa-services>
+</div>

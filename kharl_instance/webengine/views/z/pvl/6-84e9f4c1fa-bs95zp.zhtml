@@ -1,0 +1,242 @@
+<div className={styles.pvlRoot}>
+	  <div class="employment-container">
+        <h1 class="tsa-title">Employment Opportunities</h1>
+        <p class="tsa-text">[FPO] See some of our featured employment opportunities below</p>
+
+        <div class="card-container">
+            <div class="tsa-card">
+                <h2>Postion Title</h2>
+                <span>Alexandria, VS</span>
+                <p>
+                    Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                </p>
+                <button class="btn btn--small btn--dark--fill">View Position</button>
+            </div>
+            <div class="tsa-card">
+                <h2>Postion Title</h2>
+                <span>Alexandria, VS</span>
+                <p>
+                    Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                </p>
+                <button class="btn btn--small btn--dark--fill">View Position</button>
+            </div>
+            <div class="tsa-card">
+                <h2>Postion Title</h2>
+                <span>Alexandria, VS</span>
+                <p>
+                    Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                </p>
+                <button class="btn btn--small btn--dark--fill">View Position</button>
+            </div>
+            <div class="tsa-card">
+                <h2>Postion Title</h2>
+                <span>Alexandria, VS</span>
+                <p>
+                    Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                </p>
+                <button class="btn btn--small btn--dark--fill">View Position</button>
+            </div>
+        </div>
+
+        <button id="view-more-btn" class="btn btn--small btn--dark--fill">View More Open Positions</button>
+    </div>
+	<tsa-image-text-right-module image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+        <div class="tsa-image-text-content">
+            <h1 class="tsa-title">Volunteer as a Bell Ringer</h1>
+            <p class="tsa-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+            </p>
+            <button class="btn btn--small btn--dark--fill">Register to Ring</button>
+        </div>
+    </tsa-image-text-right-module>
+	<tsa-image-text-module image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+        <div class="tsa-image-text-content">
+            <h1 class="tsa-title">[FPO] Why Work at The Salvation Army?</h1>
+            <p class="tsa-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+            </p>
+        </div>
+</tsa-image-text-module>
+	<div class="volunteer-jobs-container">
+            <h1 class="tsa-title">Volunteer Opportunities</h1>
+            <div class="volunteer-jobs-inputs">
+                <label class="input volunteer-input">
+                    <span>Volunteer Title</span>
+                    <input class="input--medium" name="" value="" placeholder="Search by volunteer title" type="text" false/>
+                     <i class="bi bi-search"></i>
+                </label>
+
+                <label class="input volunteer-input">
+                    <span>Location</span>
+                    <input class="input--medium" name="" value="" placeholder="City, State or ZIP" type="text" false/>
+                     <i class="bi bi-geo-alt"></i>
+                </label>
+                <button class="btn btn--medium btn--dark--fill btn--fullWidth">Search</button>
+            </div>
+            
+            <span class="volunteer-pages">1 - 6 of 4,123 volunteer opportunities</span>
+            
+            <paginated-list items-per-page="6" id="volunteer-pagination" class="volunteer-jobs-cards">
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+            </paginated-list>
+        </div>
+	<tsa-image-text-module image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+        <div class="tsa-image-text-content">
+            <h1 class="tsa-title">[FPO] Why Work at The Salvation Army?</h1>
+            <p class="tsa-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+            </p>
+        </div>
+</tsa-image-text-module>
+	<hero-module id="work" title="[FPO] See What it’s Like to Work at The Army" imageUrl="" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.">
+    <div slot="cta" class="cta">
+        <img src="https://w1w702z1.media.zestyio.com/Frame-387.png" alt="Temporary Image">
+    </div>
+</hero-module>
+	<div class="benefits-container">
+    <h1 class="tsa-title" >[FPO] Benefits & Perks</h1>
+    <div class="benefits">
+        <div class="tsa-card">
+            <tsa-text-with-icon bootstrapIcon="image" title="Time Off Benefits"></tsa-text-with-icon>
+            <P class="tsa-text">Description of the services provided. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+        </div>
+        <div class="tsa-card">
+            <tsa-text-with-icon bootstrapIcon="image" title="Retirement"></tsa-text-with-icon>
+            <P class="tsa-text">Description of the services provided. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+        </div>
+        <div class="tsa-card">
+            <tsa-text-with-icon bootstrapIcon="image" title="Competitive Compensation"></tsa-text-with-icon>
+            <P class="tsa-text">Description of the services provided. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+        </div>
+    </div>
+</div>
+	<div class="employees">
+    <h1 class="tsa-title">[FPO] Hear what our Employees are Saying</h1>
+
+    <div class="employee-cards">
+        <div class="tsa-card employee-card">
+            <img src="https://w1w702z1.media.zestyio.com/Frame-440.png" alt="John Doe">
+            <h1>[FPO] “Working at The Salvation Army is so fulfilling”</h1>
+            <span>- Jane<span>
+        </div>
+        <div class="tsa-card employee-card">
+            <img src="https://w1w702z1.media.zestyio.com/Frame-440.png" alt="John Doe">
+            <h1>[FPO] “Working at The Salvation Army is so fulfilling”</h1>
+            <span>- Jane<span>
+        </div>
+        <div class="tsa-card employee-card">
+            <img src="https://w1w702z1.media.zestyio.com/Frame-440.png" alt="John Doe">
+            <h1>[FPO] “Working at The Salvation Army is so fulfilling”</h1>
+            <span>- Jane<span>
+        </div>
+    </div>
+</div>
+	<hero-module id="equal-employment" title="Equal Opportunity Employment" imageUrl="" subtitle="The Salvation Army is an Equal Opportunity Employer and committed to providing a respectful environment for all applicants and employees that is free from unlawful discrimination or harassment based on age, race, color, religion, sex, national origin, marital status, disability, citizenship, sexual orientation, gender identity, gender expression, or any other characteristic protected by law. Such equal opportunity for employment will apply to recruitment and hiring, training, promotion, salaries and other compensation, transfers and layoffs or termination.">
+    <div slot="cta" class="">
+        <p class="tsa-text">Additionally, read our <a style="text-decoration: underline" href="">International Positional Statement on Disabilities.</a> </p>
+    </div>
+</hero-module>
+</div>

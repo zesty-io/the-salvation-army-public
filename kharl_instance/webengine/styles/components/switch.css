@@ -1,0 +1,68 @@
+.tsa-switch {
+    border: 1px solid #000;
+    border-radius: 30rem;
+    width: 8.8rem;
+    height: 4.6rem;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+
+    & .tsa-switch__thumb {
+        position: absolute;
+        top: 50%;
+        bottom: 0;
+        left: .5rem;
+        border-radius: 100%;
+        transform: translateY(-50%);
+        width: 3.6rem;
+        height: 3.6rem;
+        background-color: #000;
+        color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        transition: all .3s ease-out;
+    }
+
+    & .tsa-switch__label {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--color-gray);
+
+        & :first-child {
+            opacity: 0;
+        }
+
+        & :last-child {
+            opacity: 1;
+        }
+
+        & span {
+            transition: all .2s ease;
+        }
+    }
+
+    & input {
+        display: none;
+    }
+}
+
+.tsa-switch[toggled] .tsa-switch__thumb {
+    left: 4.5rem;
+}
+
+.tsa-switch[toggled] .tsa-switch__label {
+    & :first-child {
+        opacity: 1;
+    }
+
+    & :last-child {
+        opacity: 0;
+    }
+}

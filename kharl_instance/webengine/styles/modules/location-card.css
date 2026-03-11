@@ -1,0 +1,208 @@
+.tsa-location-card {
+    border-radius: .6rem;
+    background-color: var(--color-gray-light);
+    position: relative;
+    padding: 0rem;
+    height: 0rem;
+    opacity: 0;
+    transition: height .7s ease, opacity .3s ease, padding .3s ease, left .5s ease;
+    overflow-y: scroll;
+
+    & .tsa-location-card__btns {
+        display: flex;
+        flex-direction: column;
+
+        &>* {
+            flex: 1;
+        }
+
+        & :last-child {
+            margin-top: 1rem;
+            text-wrap: nowrap;
+        }
+    }
+
+    & .tsa-location-card__info {
+
+        & .text-with-icon {
+            margin-right: 1rem;
+
+            & h6,
+            i {
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+        }
+
+        & .tsa-location-card__info__hours {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        & .tsa-location-card__info-content,
+        .tsa-location-card__info-content-address-title {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+
+        }
+
+        & .tsa-location-card__info-content {
+            margin-bottom: 1rem;
+        }
+    }
+
+    & .tsa-location-card__controls {
+        display: flex;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+
+        & :first-child {
+            margin-right: .5rem;
+        }
+
+        & :last-child {
+            &>* {
+                position: relative;
+                margin-right: 1rem;
+                color: #000;
+            }
+
+            &>*::before {
+                content: "";
+                height: 100%;
+                width: 1px;
+                background-color: #000;
+                position: absolute;
+                right: -.6rem;
+            }
+
+            &:last-child::before {
+                content: "";
+                height: 0%;
+                width: 1px;
+                background-color: #000;
+                position: absolute;
+            }
+        }
+    }
+
+
+    & .tsa-location-card__services {
+        & h2 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        & ul {
+            list-style: disc;
+            display: grid;
+            grid-template-columns: auto;
+            margin-left: 2rem;
+            font-size: 1.3rem;
+            line-height: 1.6rem;
+        }
+    }
+
+    &>* {
+        margin-bottom: 1.5rem;
+    }
+
+    & :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+.tsa-location-card__header {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 2.5rem;
+
+        display: flex !important;
+        align-items: flex-start;
+
+        & :first-child {
+
+            display: block;
+            margin-right: 1rem;
+            color: #000;
+            font-size: 2rem;
+        }
+}
+
+.tsa-location-card__header i {
+margin-right: 1rem;
+color: var(--color-primary);
+}
+
+
+.tsa-location-card[selected] {
+ height: 60rem;
+ max-height: 100%;
+ opacity: 1;
+ padding: 3rem;
+}
+
+
+.tsa-location-close{
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+    font-size: 3rem;
+}
+
+@media (min-width: 1290px) {
+    .tsa-location-card {
+        width: 55rem;
+        left: -60rem;
+        position: absolute;
+        padding: 3rem;
+        top: 0;
+        height: 100%;
+        & .tsa-location-card__btns {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            &>* {
+                flex: 1;
+                width: 50%;
+            }
+
+            & :last-child {
+                margin-top: 0;
+                margin-left: 1rem;
+            }
+        }
+
+        & .tsa-location-card__services {
+            & h2 {
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+            }
+
+            & ul {
+                list-style: disc;
+                display: grid;
+
+                grid-template-columns: auto auto;
+                margin-left: 2rem;
+                font-size: 1.3rem;
+                line-height: 1.6rem;
+            }
+        }
+    }
+
+    .tsa-location-card[selected] {
+
+        left: 0;
+    }
+}

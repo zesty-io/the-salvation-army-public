@@ -1,0 +1,18 @@
+tsa-stories {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 0;
+}
+.stories-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stories-link a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+tsa-stories .tsa-title {
+  margin-bottom: 3rem;
+}

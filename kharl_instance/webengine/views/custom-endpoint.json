@@ -1,0 +1,17 @@
+{{ $myVariable = {request.queryParam(myVar)} }}
+{{ $service = {request.queryParam(service)} }}
+{{ $state = {request.queryParam(state)} }}
+ {{ $length == 0 }}
+{{ $where_statement =  find_in_set('{$state}',state) }}
+[ 
+{{ each divisions as division where {$where_statement} }}
+{{ $length = {division._length} }}
+    {"division_name": "{{division.name }}" },
+    {"my_variable": "{{$service}}"},
+    {"num": "{{ division._num}}"},
+    {"length":"{{ division._length}}"} {{division._arraycomma}}
+{{/each}}
+{{ if {$length} == 0  }}
+{"message":"no results"}
+{{/if}}
+]

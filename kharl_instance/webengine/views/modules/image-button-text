@@ -1,0 +1,9 @@
+<tsa-image-text-right-module image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+        <div class="tsa-image-text-content">
+            <h1 class="tsa-title">Volunteer as a Bell Ringer</h1>
+            <p class="tsa-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+            </p>
+            <button class="btn btn--small btn--dark--fill">Register to Ring</button>
+        </div>
+    </tsa-image-text-right-module>

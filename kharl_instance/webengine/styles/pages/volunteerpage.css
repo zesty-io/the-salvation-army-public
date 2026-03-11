@@ -1,0 +1,42 @@
+.volunteer-input{
+  position: relative;
+}
+
+.volunteer-input-corps{
+  display: flex;
+}
+
+.volunteer-input i{
+  right: 1.5rem;
+  bottom: .7rem;
+  font-size: 2rem;
+  position: absolute;
+}
+
+#volunteer-pagination::part(grid-container) {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 1rem;
+  gap: 3rem;
+}
+
+.volunteer-pages{
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 2rem 1rem;
+}
+
+#Volunteer::part(container){
+  background-color: var(--color-gray-light);
+}
+
+#Volunteer-corps::part(container){
+  background-color: var(--color-gray-light);
+}
+
+@media (min-width: 1280px) {
+  #volunteer-pagination::part(grid-container) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

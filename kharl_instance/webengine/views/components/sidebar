@@ -1,0 +1,233 @@
+<div
+  class="offcanvas offcanvas-end"
+  data-bs-scroll="false"
+  data-bs-backdrop="true"
+  tabindex="-1"
+  id="offcanvasScrolling"
+  aria-labelledby="offcanvasScrollingLabel"
+>
+  <div class="offcanvas-header">
+    <button
+      type="button"
+      class="btn-close fs-1 opacity-100"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column">
+    <div class="d-flex align-items-center mb-4">
+      <i class="bi bi-geo-alt-fill fs-1 me-2"></i>
+      <h1 class="fw-semibold fs-2">Salvation Army National</h1>
+    </div>
+    <div class="d-grid gap-3">
+      <button class="btn btn--dark--fill btn--small">Find my Local Salvation Army</button>
+    </div>
+
+    <div
+      class="accordion accordion-flush mt-5"
+      id="accordionFlushExample"
+    >
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed fw-semibold tsa-text px-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            Our Services
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <nav class="d-grid gap-3">
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Item #1</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Item #2</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Item #3</a
+              >
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed fw-semibold tsa-text px-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo"
+            aria-expanded="false"
+            aria-controls="flush-collapseTwo"
+          >
+            About Us
+          </button>
+        </h2>
+        <div
+          id="flush-collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <nav class="d-grid gap-3">
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Who We Are</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Employment Opputunities</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >History</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Leadership</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Our Presence</a
+              >
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed fw-semibold tsa-text px-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree"
+            aria-expanded="false"
+            aria-controls="flush-collapseThree"
+          >
+            Ways to Give
+          </button>
+        </h2>
+        <div
+          id="flush-collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <nav class="d-grid gap-3">
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Ways to Support</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Donate Money</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Donate Goods</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Volunteer</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Vehicle Donation</a
+              >
+              <a
+                href=""
+                class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+                >Become a Fundriser</a
+              >
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr
+      class="m-0"
+      style="opacity: 0.15"
+    />
+    <ul class="list-group list-group-flush mb-4">
+      <li class="list-group-item tsa-text fw-semibold p-3">Events</li>
+      <li class="list-group-item tsa-text fw-semibold p-3">Contact Us</li>
+  <li></li>
+    </ul>
+ 
+
+    <tsa-switch labels="EN,ES"></tsa-switch>
+    <ul class="d-flex align-items-center justify-content-around mt-auto mb-5">
+      <li>
+        <a href="">
+          <img
+            src="https://mgfrnv8q.media.zestyio.com/ic_baseline-facebook.png"
+            alt="Location icon"
+            class="me-1"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img
+            src="https://mgfrnv8q.media.zestyio.com/mdi_twitter.png"
+            alt="Location icon"
+            class="me-1"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img
+            src="https://mgfrnv8q.media.zestyio.com/mdi_youtube.png"
+            alt="Location icon"
+            class="me-1"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img
+            src="https://mgfrnv8q.media.zestyio.com/mdi_instagram.png"
+            alt="Location icon"
+            class="me-1"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img
+            src="https://mgfrnv8q.media.zestyio.com/mdi_linkedin.png"
+            alt="Location icon"
+            class="me-1"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="benefits-container">
+    <h1 class="tsa-title" >[FPO] Benefits & Perks</h1>
+    <div class="benefits">
+        <div class="tsa-card">
+            <tsa-text-with-icon bootstrapIcon="image" title="Time Off Benefits"></tsa-text-with-icon>
+            <P class="tsa-text">Description of the services provided. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+        </div>
+        <div class="tsa-card">
+            <tsa-text-with-icon bootstrapIcon="image" title="Retirement"></tsa-text-with-icon>
+            <P class="tsa-text">Description of the services provided. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+        </div>
+        <div class="tsa-card">
+            <tsa-text-with-icon bootstrapIcon="image" title="Competitive Compensation"></tsa-text-with-icon>
+            <P class="tsa-text">Description of the services provided. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+{{ if {instance.env} == 'dev' }}
+// fetch dev url
+// fetch with query param /?zpw{{ setting.security.preview_lock_password }}
+[
+{{ each api.json.get(//w1w702z1-dev.webengine.zesty.io/custom-endpoint.json?state=7-ccd98af9b9-f0gcmf) as obj }}
+{"name": "{{obj.division_name}}"} {{obj._arraycomma}}
+{{/each}}
+]
+{{else}}
+//fetch live url 
+{{/if}}

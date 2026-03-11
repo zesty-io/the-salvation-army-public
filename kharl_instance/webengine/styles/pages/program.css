@@ -1,0 +1,9 @@
+.carousel-module .tsa-title {
+    padding: 0 28rem;
+}
+
+@media (max-width: 769px) {
+    .carousel-module .tsa-title {
+        padding: 0 2rem;
+    }
+}

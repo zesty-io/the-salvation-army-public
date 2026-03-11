@@ -1,0 +1,29 @@
+.statement__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    text-align: center;
+}
+
+.statement__content > *{
+    margin-bottom: 2rem;
+}
+
+.statement__img{
+    margin-top: 2rem;
+}
+
+@media (min-width: 1280px) {
+    .statement__card{
+        text-align: left;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 6rem;
+    }
+
+    .statement__content h1{
+        text-align: left;
+    }
+}

@@ -1,0 +1,17 @@
+<div class="stats-number">
+  <h3 class="tsa-title w-50 m-auto py-5">STATS</h2>
+  <div class="stats-number__wrapper">
+    <stats-number 
+      heading="1 in 30" 
+      content="Every year, 1 out of 30 children experiences homelessness. "
+    ></stats-number>
+    <stats-number 
+      heading="1 in 30" 
+      content="Every year, 1 out of 30 children experiences homelessness. "
+    ></stats-number>
+    <stats-number 
+      heading="1 in 30" 
+      content="Every year, 1 out of 30 children experiences homelessness. "
+    ></stats-number>
+  </div>
+</div>

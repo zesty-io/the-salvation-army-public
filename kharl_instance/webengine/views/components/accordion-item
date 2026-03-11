@@ -1,0 +1,5 @@
+<tsa-accordion-item heading="Homeless Shelter Service">
+      <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+      <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>

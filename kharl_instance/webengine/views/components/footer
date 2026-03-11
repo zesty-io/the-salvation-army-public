@@ -1,0 +1,99 @@
+<style>
+body {
+            font-family: Arial, sans-serif;
+        }
+        .bg-light-gray {
+            background-color: #f7f7f7;
+        }
+        .bg-salvation-red {
+            background-color: #e31837;
+        }
+        .btn-salvation-blue {
+            background-color: #003087;
+            color: white;
+        }
+        .btn-salvation-blue:hover {
+            background-color: #002570;
+            color: white;
+        }
+        .text-salvation-blue {
+            color: #003087;
+        }
+        .nav-link {
+            color: #333;
+        }
+        .nav-link.active {
+            font-weight: bold;
+        }
+        .social-icon {
+            font-size: 1.5rem;
+            color: #666;
+        }
+        .footer-text {
+            color: #666;
+        }  
+</style>
+<footer class="bg-light-gray py-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-5 mb-4 mb-md-0 rounded-5 bg-white py-4 px-5">
+                <h5 class="fw-bold mb-3 fs-4">Sign Up For Newsletter</h5>
+                <form class="row g-3 d-flex align-items-center">
+                    <div class="col-sm-12 col-md-4">
+                        <input type="email" class="form-control rounded-0" placeholder="Email">
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <input type="tel" class="form-control rounded-0" placeholder="Phone">
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <button type="submit" class="btn btn-salvation-blue rounded-0 w-100">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-7">
+                <div class="bg-salvation-red text-white p-4 rounded">
+                    <h5 class="fw-bold mb-3">Our Mission to Serve</h5>
+                    <p class="mb-0 small">The Salvation Army, an international movement, is an evangelical part of the universal Christian Church. Its message is based on the Bible. Its ministry is motivated by the love of God. Its mission is to preach the gospel of Jesus Christ and to meet human needs in His name without discrimination.</p>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav justify-content-center mb-4">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">Ways To Give</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Employment Opportunities</a>
+            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">Volunteer</a>
+            <a class="nav-link" href="#">Accessibility</a>
+        </nav>
+
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="d-flex justify-content-center mb-4">
+            <a href="#" class="me-4 social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="me-4 social-icon"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="me-4 social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="me-4 social-icon"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="me-4 social-icon"><i class="bi bi-instagram"></i></a>
+          </div>
+
+          <div class="text-center mb-4 footer-text small">
+              <p class="mb-1">615 Slaters Lane, Alexandria, Virginia 22314 | 1-800-SAL-ARMY |</p>
+              <p class="mb-0">Privacy Policy | © The Salvation Army National Headquarters</p>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center mb-4">
+              <img src="https://mgfrnv8q.media.zestyio.com/image-3.png" alt="ECFA Accredited" class="me-3" style="height: 40px;">
+              <img src="https://mgfrnv8q.media.zestyio.com/image-4.png" alt="GuideStar Platinum" class="me-3" style="height: 40px;">
+              <img src="https://mgfrnv8q.media.zestyio.com/image-5.png" alt="Better Business Bureau Accredited Charity" style="height: 40px;">
+          </div>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-center">
+            <a href="SalvationArmyUSA.org" class="me-4 text-salvation-blue text-decoration-none small fw-bold">SalvationArmyUSA.org</a>
+            <a href="Satruck.org" class="me-4 text-salvation-blue text-decoration-none small fw-bold">Satruck.org <i class="bi bi-box-arrow-up-right"></i></a>
+            <a href="Disaster.Salvationarmyusa.org" class="me-4 text-salvation-blue text-decoration-none small fw-bold">Disaster.Salvationarmyusa.org <i class="bi bi-box-arrow-up-right"></i></a>
+            <a href="Kroccenter.org" class="text-salvation-blue text-decoration-none small fw-bold">Kroccenter.org <i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+    </div>
+</footer>
