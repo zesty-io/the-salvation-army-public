@@ -1,0 +1,6 @@
+.tsa-card {
+    padding: 3.2rem 1.6rem;
+    box-shadow: var(--shadow-large);
+    background: var(--color-gray-ligher);
+    display: inline-block;
+}

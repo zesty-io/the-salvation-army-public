@@ -1,0 +1,96 @@
+<div class="py-5">
+<h2 class="tsa-title">Upcoming Events</h2>
+  <paginated-list items-per-page="6">
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 1</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 2</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title3 </h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 4</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 5</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 6</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 7</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 7</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 7</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 7</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 7</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 7</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+    <tsa-stories-single>
+      <h2 slot="heading">[FPO] Title 7</h2>
+      <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+      <span class="card__date" data-date="2024-05-03" slot="date"></span>
+      <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+      <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">View Event</a>   
+    </tsa-stories-single>
+  </paginated-list>
+</div>

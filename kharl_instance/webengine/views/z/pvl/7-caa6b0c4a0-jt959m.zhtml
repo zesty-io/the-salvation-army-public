@@ -1,0 +1,84 @@
+<div className={styles.pvlRoot}>
+	<hero-module
+  title="All Service Programs Corps"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="View all the programs that Augusta Capital Region Corps offers"
+>
+</hero-module>
+	<div class="row" style="background-color:#EFF1F0;" classname="{styles.pvlRow}">
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<div class="p-5">
+        <h2 class="tsa-title w-100 py-5 text-start">Homeless Shelter Programs</h2>
+        <div class="mb-4">
+          <p class="tsa-text"><a href="#" style="text-decoration: underline;">Click here</a> to learn more about this service </p>
+        </div>
+        <tsa-accordion>
+          <tsa-accordion-item heading="Permanent Supportive Housing">
+            <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+            <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </tsa-accordion-item>
+          <tsa-accordion-item heading="Traditional Housing">
+            <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+            <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </tsa-accordion-item>
+          <tsa-accordion-item heading="Homeless Shelter Service">
+            <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+            <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </tsa-accordion-item>
+        </tsa-accordion>
+      </div>
+      <div class="p-5">
+        <h2 class="tsa-title w-100 py-5 text-start">Food Pantry Programs</h2>
+        <div class="mb-4">
+          <p class="tsa-text"><a href="#" style="text-decoration: underline;">Click here</a> to learn more about this service </p>
+        </div>
+        <tsa-accordion>
+          <tsa-accordion-item heading="Permanent Supportive Housing">
+            <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+            <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </tsa-accordion-item>
+          <tsa-accordion-item heading="Traditional Housing">
+            <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+            <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </tsa-accordion-item>
+          <tsa-accordion-item heading="Homeless Shelter Service">
+            <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+            <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </tsa-accordion-item>
+        </tsa-accordion>
+      </div>
+            <div class="p-5">
+        <h2 class="tsa-title w-100 py-5 text-start">Youth Empowerment Programs</h2>
+        <div class="mb-4">
+          <p class="tsa-text"><a href="#" style="text-decoration: underline;">Click here</a> to learn more about this service </p>
+        </div>
+        <tsa-accordion>
+          <tsa-accordion-item heading="Permanent Supportive Housing">
+            <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+            <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </tsa-accordion-item>
+          <tsa-accordion-item heading="Traditional Housing">
+            <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+            <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </tsa-accordion-item>
+          <tsa-accordion-item heading="Homeless Shelter Service">
+            <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+            <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </tsa-accordion-item>
+        </tsa-accordion>
+      </div>
+		</div>
+	</div>
+</div>

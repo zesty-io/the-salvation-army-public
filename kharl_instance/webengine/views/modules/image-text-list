@@ -1,0 +1,32 @@
+<tsa-image-text-list>
+      <h1 slot="title" class="tsa-title">Salvation Army Publications</h1>
+      <div slot="content">
+        <tsa-image-text-top-module imagePosition="right" image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+            <div class="tsa-image-text-content">
+                <span class="tsa-title text-center fw-bold fs-4 d-block">Volunteer as a Bell Ringer</span>
+                <p class="tsa-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn btn--fullWidth btn--dark--outline">View Website</button>
+            </div>
+        </tsa-image-text-top-module>
+        <tsa-image-text-top-module imagePosition="right" image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+            <div class="tsa-image-text-content">
+                <span class="tsa-title text-center fw-bold fs-4 d-block">Volunteer as a Bell Ringer</span>
+                <p class="tsa-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn btn--fullWidth btn--dark--outline">View Website</button>
+            </div>
+        </tsa-image-text-top-module>
+        <tsa-image-text-top-module imagePosition="right" image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+            <div class="tsa-image-text-content">
+                <span class="tsa-title text-center fw-bold fs-4 d-block">Volunteer as a Bell Ringer</span>
+                <p class="tsa-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn btn--fullWidth btn--dark--outline">View Website</button>
+            </div>
+        </tsa-image-text-top-module>
+      </div>
+    </tsa-image-text-list>

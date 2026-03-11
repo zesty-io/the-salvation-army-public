@@ -1,0 +1,122 @@
+<div class="volunteer-jobs-container">
+            <h1 class="tsa-title">Volunteer Opportunities</h1>
+            <div class="volunteer-jobs-inputs">
+                <label class="input volunteer-input">
+                    <span>Volunteer Title</span>
+                    <input class="input--medium" name="" value="" placeholder="Search by volunteer title" type="text" false/>
+                     <i class="bi bi-search"></i>
+                </label>
+
+                <label class="input volunteer-input">
+                    <span>Location</span>
+                    <input class="input--medium" name="" value="" placeholder="City, State or ZIP" type="text" false/>
+                     <i class="bi bi-geo-alt"></i>
+                </label>
+                <button class="btn btn--medium btn--dark--fill btn--fullWidth">Search</button>
+            </div>
+            
+            <span class="volunteer-pages">1 - 6 of 4,123 volunteer opportunities</span>
+            
+            <paginated-list items-per-page="6" id="volunteer-pagination" class="volunteer-jobs-cards">
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+                <div class="tsa-card volunteer-job-card">
+                    <h2>Volunteer Opportunity Title</h2>
+                    <span>Dallas, TX</span>
+                    <p class="tsa-text">
+                        Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Description. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut
+                    </p>
+                    <button class="btn btn--small btn--dark--fill">View Opportunity</button>
+                </div>
+            </paginated-list>
+        </div>

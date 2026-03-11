@@ -1,0 +1,221 @@
+<footer>
+  <div class="footer__title">
+    <h1 class="tsa-text">Salvation Army Mission Statement</h1>
+    <p class="tsa-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut
+      labore et dolore magna aliqua. Ut
+    </p>
+  </div>
+
+  <hr class="styled-hr my-5" />
+
+  <div class="footer__content">
+    <nav class="footer__nav">
+      <a
+        href=""
+        class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text "
+        >Home</a
+      >
+      <a
+        href=""
+        class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text "
+        >About Us</a
+      >
+      <a
+        href=""
+        class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text "
+        >Location</a
+      >
+      <a
+        href=""
+        class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text "
+        >Services</a
+      >
+      <a
+        href=""
+        class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text "
+        >Newsroom</a
+      >
+      <a
+        href=""
+        class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text "
+        >Ways to Give</a
+      >
+      <a
+        href=""
+        class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text "
+        >Employment Opputunities</a
+      >
+      <a
+        href=""
+        class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text "
+        >Volunteer</a
+      >
+      <a
+        href=""
+        class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text "
+        >Accessibility</a
+      >
+    </nav>
+
+    <div class="d-flex flex-column">
+      <div>
+        <a
+          href="salvationarmyusa.org"
+          class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+          >Salvationarmyusa.org</a
+        >
+      </div>
+
+      <div>
+        <a
+          href="satruck.org"
+          class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+          >Satruck.org</a
+        >
+      </div>
+
+      <div>
+        <a
+          href="disaster.salvationarmy.org"
+          class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+          >Disaster.Salvationarmyusa.org</a
+        >
+      </div>
+
+      <div>
+        <a
+          href="kroccenter.org"
+          class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover tsa-text"
+          >Kroccenter.org</a
+        >
+      </div>
+    </div>
+
+    <div>
+      <!-- Site Search -->
+      <div>
+        <h2 class="tsa-text fw-semibold">Site Search</h2>
+        <div class="tsa-footer__input">
+          <label class="input">
+            <i class="bi bi-search"></i>
+            <input
+              class="input--medium"
+              name=""
+              value=""
+              placeholder="What are you looking for"
+              type="text"
+            />
+          </label>
+        </div>
+      </div>
+
+      <!-- Socials -->
+
+      <ul class="d-flex align-items-center my-4">
+        <li class="me-5">
+          <a href="">
+            <img
+              src="https://mgfrnv8q.media.zestyio.com/ic_baseline-facebook.png"
+              alt="Location icon"
+              class="me-1"
+            />
+          </a>
+        </li>
+        <li class="me-5">
+          <a href="">
+            <img
+              src="https://mgfrnv8q.media.zestyio.com/mdi_twitter.png"
+              alt="Location icon"
+              class="me-1"
+            />
+          </a>
+        </li>
+        <li class="me-5">
+          <a href="">
+            <img
+              src="https://mgfrnv8q.media.zestyio.com/mdi_youtube.png"
+              alt="Location icon"
+              class="me-1"
+            />
+          </a>
+        </li>
+        <li class="me-5">
+          <a href="">
+            <img
+              src="https://mgfrnv8q.media.zestyio.com/mdi_instagram.png"
+              alt="Location icon"
+              class="me-1"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img
+              src="https://mgfrnv8q.media.zestyio.com/mdi_linkedin.png"
+              alt="Location icon"
+              class="me-1"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Map -->
+    <!-- <div class="footer__map justify-content-center my-5">
+      <img
+        src="https://mgfrnv8q.media.zestyio.com/lofi-map.png"
+        alt="Location icon"
+        class="me-1"
+      />
+    </div> -->
+
+    <!-- Credentials -->
+    
+  </div>
+
+  <hr class="styled-hr" />
+
+  <!-- Footer policy -->
+  <div class="d-flex justify-content-between align-items-center">
+  <div class="footer-policy text-black">
+    <p class="my-4 fs-5">The Salvation Army USA</p>
+    <p
+  
+      class="fs-5 w-50 text-wrap"
+    >
+      615 Slaters Lane, Alexandria, Virginia 22314 | 1-800-SAL-ARMY |
+      <a
+        class="link-dark"
+        href=""
+        >Privacy Policy</a
+      >
+      | © The Salvation Army National Headquarters
+    </p>
+  </div>
+
+  <div class="d-flex justify-content-evenly">
+      <div>
+        <img
+          src="https://mgfrnv8q.media.zestyio.com/image-3.png"
+          alt="Location icon"
+          class="me-1"
+        />
+      </div>
+      <div>
+        <img
+          src="https://mgfrnv8q.media.zestyio.com/image-4.png"
+          alt="Location icon"
+          class="me-1"
+        />
+      </div>
+      <div>
+        <img
+          src="https://mgfrnv8q.media.zestyio.com/image-5.png"
+          alt="Location icon"
+          class="me-1"
+        />
+      </div>
+    </div>
+  </div>
+</footer>

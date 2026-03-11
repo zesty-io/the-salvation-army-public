@@ -1,0 +1,14 @@
+<div class="d-flex flex-column justify-content-center my-5">
+    <h1 class="text-center fs-1 fw-bold mb-5">Cities</h1>
+    <div class="list-group container">
+       {{each {city_locale} as city sort by name ASC where find_in_set('{page.zuid}', state ) }}
+                <ul class="list-group">
+                    <li class="list-group-item"> 
+                        <a href="{{city.getUrl()}}">
+                        {{city.name}}
+                        </a>
+                    </li>
+                </ul>
+        {{/each}}
+    </div>
+</div>

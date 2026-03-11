@@ -1,0 +1,82 @@
+input[type='checkbox']::checked {
+  border: none;
+  outline: 2px solid #fff;
+  background: #000;
+  color: #fff;
+}
+swiper-container::part(button-prev) ,
+swiper-container::part(button-next)  {
+  content: '';
+}
+swiper-container::part(prev-button)::before {
+  content: '\2039'; /* Unicode left arrow */
+  font-size: 24px;
+}
+
+swiper-container::part(next-button)::before {
+  content: '\203A'; /* Unicode right arrow */
+  font-size: 24px;
+}
+swiper-container::part(button-prev) {
+  /* Styles for the previous button */
+  color: #000;
+  bottom: 10px;
+  top: auto;
+  left: 44%;
+  right: auto;
+  transform: translateX(-50%);
+  height: 1.3rem;
+  background-image: url('https://9v0hq3mk.media.zestyio.com/prev-button.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 20;
+}
+swiper-container::part(button-next) {
+  /* Styles for the next button */
+  color: #000;
+  bottom: 10px;
+  top: auto;
+  right: 43%;
+  left: auto;
+  transform: translateX(-50%);
+  height: 1.3rem;
+  background-image: url('https://9v0hq3mk.media.zestyio.com/next-button.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 20;
+}
+
+swiper-container::part(pagination) {
+  /* Styles for the pagination bullets */
+}
+
+swiper-container::part(scrollbar) {
+  /* Styles for the scrollbar */
+}
+swiper-container::part(bullet-active) {
+  background: #000;
+  width: 16px;
+  height: 16px;
+}
+
+swiper-container::part(bullet) {
+  width: 16px;
+  height: 16px;
+}
+
+swiper-container::part(wrapper) {
+  padding-bottom: 45px;
+}
+
+@media (max-width: 769px) {
+  swiper-container::part(button-prev) {
+    height: 1.8rem;
+    left: 27%;
+  }
+  swiper-container::part(button-next) {
+    height: 1.8rem;
+    right: 22%; 
+  }
+}

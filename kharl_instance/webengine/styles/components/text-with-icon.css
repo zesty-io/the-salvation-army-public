@@ -1,0 +1,15 @@
+.text-with-icon {
+    display: flex;
+
+    & i {
+        font-size: 3rem;
+        margin-right: .6rem;
+    }
+
+    & h6 {
+        font-size: 2rem;
+        font-weight: 600;
+        align-self: center;
+    }
+
+}

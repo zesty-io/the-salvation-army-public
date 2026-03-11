@@ -1,0 +1,58 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+paginated-list::part(grid-container) {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 0 2rem;
+}
+paginated-list::part(grid-item) {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+paginated-list::part(pagination) {
+  margin-top: 20px;
+  text-align: center;
+}
+paginated-list::part(pagination-button) {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+paginated-list::part(prev-button),
+paginated-list::part(next-button) {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+@media (max-width: 769px) {
+    paginated-list::part(grid-container) {
+        gap: 40px 40px;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 0;
+    }
+}

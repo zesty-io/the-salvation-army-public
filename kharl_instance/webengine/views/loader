@@ -1,0 +1,7 @@
+{{include components/header}}
+{{current_view}}
+{{include components/footer}}
+{{include components/sidebar}}
+{{if {site.env} == dev }}
+    {{include utilities/developertool.html}}
+{{/if}}

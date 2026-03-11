@@ -1,0 +1,5 @@
+<hero-module id="work" title="[FPO] See What it’s Like to Work at The Army" imageUrl="" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.">
+    <div slot="cta" class="cta">
+        <img src="https://w1w702z1.media.zestyio.com/Frame-387.png" alt="Temporary Image">
+    </div>
+</hero-module>

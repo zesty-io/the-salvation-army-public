@@ -1,0 +1,44 @@
+
+<stats-module title="[FPO] Stats/Facts">
+  <div slot="content">
+    <div id="content">
+      <stat-image-card-module
+        class="mb-4"
+        title="[FPO] 1,000,000 Meals Served"
+        imageUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+      >
+        <p class="tsa-text">
+          Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididun ut labore et dolore magna aliqua. Ut
+        </p>
+      </stat-image-card-module>
+      <stat-image-card-module
+        title="[FPO] 1,000,000 Meals Served"
+        imageUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+      >
+        <p class="tsa-text">
+          Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididun ut labore et dolore magna aliqua. Ut
+        </p>
+      </stat-image-card-module>
+      <stat-image-card-module
+        title="[FPO] 1,000,000 Meals Served"
+        imageUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+      >
+        <p class="tsa-text">
+          Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididun ut labore et dolore magna aliqua. Ut
+        </p>
+      </stat-image-card-module>
+    </div>
+
+    <div id="cta">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--outline"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</stats-module>

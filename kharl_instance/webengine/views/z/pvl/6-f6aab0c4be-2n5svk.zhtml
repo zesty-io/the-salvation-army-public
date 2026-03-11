@@ -1,0 +1,113 @@
+<div className={styles.pvlRoot}>
+	<hero-module
+  title="Marketing Title"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Subtitle of the hero goes here"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA      </button>
+    </div>
+  </div>
+</hero-module>
+	<div class="row py-5 my-5 px-5" style="display:block" classname="{styles.pvlRow}">
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<tsa-read-more-card-list heading="[FPO] National Leaders">
+      <read-more-card 
+        imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+        heading="Name/Title"
+        intro="<p>Brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.</p>"
+        link="#"
+        content="<p>Longer, yet concise version of the bio written for each entity that is represented by this card. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Ultricies mi eget mauris pharetra et ultrices neque ornare. Dui vivamus arcu felis bibendum ut tristique et egestas. Nec ullamcorper sit amet risus nullam.</p>"
+      ></read-more-card>
+      <read-more-card 
+        imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+        heading="Name/Title"
+        intro="<p>Brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.</p>"
+        link="#"
+        content="<p>Longer, yet concise version of the bio written for each entity that is represented by this card. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Ultricies mi eget mauris pharetra et ultrices neque ornare. Dui vivamus arcu felis bibendum ut tristique et egestas. Nec ullamcorper sit amet risus nullam.</p>"
+      ></read-more-card>
+      <read-more-card 
+        imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+        heading="Name/Title"
+        intro="<p>Brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.</p>"
+        link="#"
+        content="<p>Longer, yet concise version of the bio written for each entity that is represented by this card. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Ultricies mi eget mauris pharetra et ultrices neque ornare. Dui vivamus arcu felis bibendum ut tristique et egestas. Nec ullamcorper sit amet risus nullam.</p>"
+      ></read-more-card>
+      <read-more-card 
+        imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+        heading="Name/Title"
+        intro="<p>Brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.</p>"
+        link="#"
+        content="<p>Longer, yet concise version of the bio written for each entity that is represented by this card. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Ultricies mi eget mauris pharetra et ultrices neque ornare. Dui vivamus arcu felis bibendum ut tristique et egestas. Nec ullamcorper sit amet risus nullam.</p>"
+      ></read-more-card>
+      <read-more-card 
+        imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+        heading="Name/Title"
+        intro="<p>Brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.</p>"
+        link="#"
+        content="<p>Longer, yet concise version of the bio written for each entity that is represented by this card. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Ultricies mi eget mauris pharetra et ultrices neque ornare. Dui vivamus arcu felis bibendum ut tristique et egestas. Nec ullamcorper sit amet risus nullam.</p>"
+      ></read-more-card>
+      <read-more-card 
+        imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+        heading="Name/Title"
+        intro="<p>Brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.</p>"
+        link="#"
+        content="<p>Longer, yet concise version of the bio written for each entity that is represented by this card. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Ultricies mi eget mauris pharetra et ultrices neque ornare. Dui vivamus arcu felis bibendum ut tristique et egestas. Nec ullamcorper sit amet risus nullam.</p>"
+      ></read-more-card>
+      <read-more-card 
+        imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+        heading="Name/Title"
+        intro="<p>Brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.</p>"
+        link="#"
+        content="<p>Longer, yet concise version of the bio written for each entity that is represented by this card. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Ultricies mi eget mauris pharetra et ultrices neque ornare. Dui vivamus arcu felis bibendum ut tristique et egestas. Nec ullamcorper sit amet risus nullam.</p>"
+      ></read-more-card>
+      <read-more-card 
+        imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+        heading="Name/Title"
+        intro="<p>Brief description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.</p>"
+        link="#"
+        content="<p>Longer, yet concise version of the bio written for each entity that is represented by this card. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Ultricies mi eget mauris pharetra et ultrices neque ornare. Dui vivamus arcu felis bibendum ut tristique et egestas. Nec ullamcorper sit amet risus nullam.</p>"
+      ></read-more-card>
+    </tsa-read-more-card-list>
+		</div>
+	</div>
+	<div class="row py-5" style="background-color:#AFB7BB;" classname="{styles.pvlRow}">
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<div class="p-5">
+  <h2 class="tsa-title w-100 py-5">Augusta Capital Region Corps Homeless Shelter Program Information</h2>
+  <tsa-accordion>
+    <tsa-accordion-item heading="Permanent Supportive Housing">
+      <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+      <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+    <tsa-accordion-item heading="Traditional Housing">
+      <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+      <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+    <tsa-accordion-item heading="Homeless Shelter Service">
+      <p><strong>Schedule</strong>: Every Tuesday 1:00 PM - 4:00 PM</p>
+      <p><strong>Location</strong>: 12345 Main Street, Oakcliff, TX 75000</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+  </tsa-accordion>
+</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,10 @@
+/* tsa-event-detail {
+  min-width: 500px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  tsa-event-detail {
+    min-width: 350px;
+  }
+} */

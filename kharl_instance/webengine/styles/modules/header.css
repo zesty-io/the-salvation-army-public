@@ -1,0 +1,141 @@
+.tsa-header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 4.8rem;
+    justify-content: space-between;
+    padding: 1rem;
+    overflow: hidden;
+    background-color: #FFF;
+    z-index: 100;
+
+    & .tsa-header__logo {
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+
+        & tsa-switch {
+            display: none;
+        }
+
+        & .logo-large {
+            display: none;
+        }
+    }
+
+    & .tsa-header__input {
+        position: relative;
+        display: none;
+
+        & i {
+            position: absolute;
+            top: 50%;
+            left: 1rem;
+            transform: translateY(-50%);
+            font-size: 2.3rem;
+        }
+
+        & input {
+            padding-left: 4rem;
+            width: 30rem;
+        }
+    }
+
+    & .tsa-header__cta {
+        margin-left: 1.4rem;
+        margin-right: .5rem;
+        flex-grow: 1;
+        display: flex;
+
+        &>* {
+            width: 100%;
+        }
+
+        & :first-child {
+            margin-right: 1.6rem;
+        }
+    }
+
+    & .tsa-header__burger {
+        border: none;
+        background-color: transparent;
+        font-size: 4rem;
+        cursor: pointer;
+    }
+
+    &>* {
+        margin-right: 0rem;
+    }
+
+    & :last-child {
+        margin-right: 0;
+    }
+}
+
+.tsa-header__input-mobile {
+        position: relative;
+        width: 100%;
+        padding: 1rem;
+        transition: all .6s ease;
+}
+
+.tsa-header__input-mobile i{
+        position: absolute;
+        top: 50%;
+        left: 2rem;
+        transform: translateY(-50%);
+        font-size: 2.3rem;
+}
+
+.tsa-header__input-mobile input{
+    padding-left: 4rem;
+    width: 100%;
+}
+
+@media (min-width: 1280px) {
+    .tsa-header {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+
+        & .tsa-header__logo {
+
+            & tsa-switch {
+                display: block;
+            }
+
+
+            & .logo-small {
+                display: none;
+            }
+
+            & .logo-large {
+                display: block;
+            }
+
+            & :first-child {
+                margin-right: 1rem;
+            }
+        }
+
+        & .tsa-header__input {
+            display: block;
+        }
+
+        & .tsa-header__cta {
+            flex: initial;
+
+            &>* {
+                width: auto;
+            }
+        }
+
+        & .tsa-header__burger {
+            display: none;
+        }
+    }
+
+    .tsa-header__input-mobile{
+        display: none;
+    }
+}

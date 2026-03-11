@@ -1,0 +1,51 @@
+<div class="py-5 text-center carousel-module">
+  <h2 class="tsa-title  m-auto py-5">[FPO] Featured Augusta Capital Region Corps Stories of Homelessness</h2>
+  <swiper-container class=" pb-5" init="false">
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+        <swiper-slide>
+            <tsa-stories-single>
+                <h2 slot="heading">[FPO] Title</h2>
+                <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+                <span class="card__date" data-date="2024-05-03" slot="date"></span>
+                <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+                <a slot="link" href="/" class="btn btn--small btn--dark--outline btn--fullWidth">[FPO] Read More</a>   
+            </tsa-stories-single>
+        </swiper-slide>
+  </swiper-container>
+  <a class="text-black text-decoration-none fs-5" href="#">View All Stories</a>
+</div>

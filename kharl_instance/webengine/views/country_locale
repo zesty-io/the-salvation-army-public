@@ -1,0 +1,16 @@
+
+<div class="d-flex flex-column justify-content-center my-5">
+    <h1 class="text-center fs-1 fw-bold mb-5">States</h1>
+    <div class="list-group container">
+        {{each {states} as state sort by name ASC}}
+                <ul class="list-group">
+                    <li class="list-group-item"> 
+                        <a href="{{state.getUrl()}}">
+                        {{state.name}}
+                        </a>
+                    </li>
+                </ul>
+        {{/each}}
+        
+    </div>
+</div>

@@ -1,0 +1,105 @@
+<div className={styles.pvlRoot}>
+	<hero-module
+  title="[FPO] Corporate Partnerships"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Become a partner with us"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--large btn--dark--fill"
+      >
+        Contact Us </button>
+    </div>
+  </div>
+</hero-module>
+	<div class="row py-5 my-5 w-75 mx-auto" style="display:block" classname="{styles.pvlRow}">
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<tsa-jump-to-section heading="[FPO] Jump to a Section">
+      <a class="btn btn--medium btn--dark--outline" href="#id1">What We Do</a>
+      <a class="btn btn--medium btn--dark--outline" href="#id2">Partner Opportunities</a>
+      <a class="btn btn--medium btn--dark--outline" href="#id3">Our Corporate Partners</a>
+      <a class="btn btn--medium btn--dark--outline" href="#id4">Become a Partner</a>
+    </tsa-jump-to-section>
+		</div>
+	</div>
+	<div class="row" style="background-color:#EFF1F0;" classname="{styles.pvlRow}">
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<tsa-text-with-icon-list heading="[FPO] What we do">
+      <div class="tsa-card">
+        <tsa-text-with-icon bootstrapIcon="image" title="Title"></tsa-text-with-icon>
+        <p class="my-3 tsa-text">Description of the services provided. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+      </div>
+      <div class="tsa-card">
+        <tsa-text-with-icon bootstrapIcon="image" title="Title"></tsa-text-with-icon>
+        <p class="my-3 tsa-text">Description of the services provided. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+      </div>
+    </tsa-text-with-icon-list>
+		</div>
+	</div>
+	<div class="row py-5 my-5" style="display:block" classname="{styles.pvlRow}">
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<tsa-image-text-box-list heading="[FPO] partnership opportunities" subheading="Lorem ipsum dolor sit amet, consectur adipscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.">
+      <tsa-image-text-box imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" heading="Seasonal" subheading="1-3 sentences explaining what this means"></tsa-image-text-box>
+      <tsa-image-text-box imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" heading="DISASTER" subheading="1-3 sentences explaining what this means"></tsa-image-text-box>
+      <tsa-image-text-box imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" heading="GRANTS" subheading="1-3 sentences explaining what this means"></tsa-image-text-box>
+      <tsa-image-text-box imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" heading="IN-KIND" subheading="1-3 sentences explaining what this means"></tsa-image-text-box>
+      <tsa-image-text-box imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" heading="POINT-OF-SALE/
+ROUND-UP" subheading="1-3 sentences explaining what this means"></tsa-image-text-box>
+      <tsa-image-text-box imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" heading="CAUSE
+MARKETING" subheading="1-3 sentences explaining what this means"></tsa-image-text-box>
+      <tsa-image-text-box imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" heading="VOLUNTEER
+ENGAGEMENT" subheading="1-3 sentences explaining what this means"></tsa-image-text-box>
+  <tsa-image-text-box imgUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" heading="MATCHING GIFT" subheading="1-3 sentences explaining what this means"></tsa-image-text-box>
+    </tsa-image-text-box-list>
+		</div>
+	</div>
+	<div class="row py-5 my-5" style="display:block" classname="{styles.pvlRow}">
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<div class="p-5">
+  <h2 class="tsa-title w-100 py-5">Augusta Capital Region Corps Homeless Shelter Program Information</h2>
+  <tsa-accordion>
+    <tsa-accordion>
+    <tsa-accordion-item heading="Platinum Partners" subtext="$1M+ Cumulative Giving in single Year ">
+      <p>Pzossible copy about what this status means/how it benefits/where that money goes to (e.g. house 1 million people) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </tsa-accordion-item>
+    <tsa-accordion-item heading="Gold Partners" subtext="$500,000 - $999,999 Cumulative Giving in Single Year">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+    <tsa-accordion-item heading="Silver Partners" subtext="$100,000 - $499,999 Cumulative Giving in Single Year">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+    <tsa-accordion-item heading="Kettle Partners" subtext="Subtitle">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+    <tsa-accordion-item heading="In-Kind Partners" subtext="Subtitle">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </tsa-accordion-item>
+  </tsa-accordion>
+</div>
+		</div>
+	</div>
+	<hero-module
+  title="[FPO] interested in becoming a national partner?"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Lorem ipsum dolor sit amet, consectur adipscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua."
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        Contact Us
+      </button>
+    </div>
+  </div>
+</hero-module>
+</div>

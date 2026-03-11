@@ -1,0 +1,15 @@
+(** default code https://zesty.org/services/web-engine/introduction-to-parsley/parsley-autolayout **)
+<div class="d-flex flex-column justify-content-center my-5">
+    <h1 class="text-center fs-1 fw-bold mb-5">Divisions for {{this.name}}</h1>
+    <div class="list-group container">
+        {{each {divisions} as division where territory = '{this.zuid}'}}
+            <a class="list-group-item list-group-item-action list-group-item-dark fw-bold" href="{{division.getURL()}}">
+                <div>
+                    <span>{{division.name}}</span>
+                    <span>{{division.physical_address}}</span>
+                </div>
+            </a>
+        {{/each}}
+        
+    </div>
+</div>

@@ -1,0 +1,38 @@
+ <local-needs-module
+  title="[FPO] How we Meet Local Needs"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+>
+  <local-need-module>
+    <tsa-text-with-icon
+      slot="title"
+      bootstrapIcon="image"
+      title="[FPO] Title"
+    ></tsa-text-with-icon>
+    <p slot="content">
+      Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididun ut labore et dolore magna aliqua. Ut
+    </p>
+  </local-need-module>
+  <local-need-module>
+    <tsa-text-with-icon
+      slot="title"
+      bootstrapIcon="image"
+      title="[FPO] Title"
+    ></tsa-text-with-icon>
+    <p slot="content">
+      Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididun ut labore et dolore magna aliqua. Ut
+    </p>
+  </local-need-module>
+  <local-need-module>
+    <tsa-text-with-icon
+      slot="title"
+      bootstrapIcon="image"
+      title="[FPO] Title"
+    ></tsa-text-with-icon>
+    <p slot="content">
+      Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididun ut labore et dolore magna aliqua. Ut
+    </p>
+  </local-need-module>
+</local-needs-module>

@@ -1,0 +1,15 @@
+(** default code https://zesty.org/services/web-engine/introduction-to-parsley/parsley-autolayout **)
+<div class="d-flex flex-column justify-content-center my-5">
+    <h1 class="text-center fs-1 fw-bold mb-5">States for {{this.name}}</h1>
+    <div class="list-group container">
+        {{each {states} as state where find_in_set(z.zuid, '{this.state}') }}
+            <a class="list-group-item list-group-item-action list-group-item-dark fw-bold" href="{{state.getURL()}}">
+                <div>
+                    <span>{{state.name}}</span>
+                    <span>{{state.state_code}}</span>
+                </div>
+            </a>
+        {{/each}}
+        
+    </div>
+</div>

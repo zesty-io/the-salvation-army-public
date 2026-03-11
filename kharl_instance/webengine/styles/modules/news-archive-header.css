@@ -1,0 +1,125 @@
+.tsa-news-archive-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 4rem;
+}
+.tsa-news-archive-header__title {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+.tsa-news-archive-header__title h1 {
+  font-size: 6rem;
+  text-align: left;
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+}
+.tsa-news-archive-header__form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.tsa-news-archive-header__form-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tsa-news-archive-header__form-wrapper span {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.tsa-news-archive-header__form-wrapper .input {
+  position: relative;
+  width: 60%;
+}
+.tsa-news-archive-header__form-wrapper .input i {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  font-size: 2.3rem;
+}
+.tsa-news-archive-header__input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.tsa-news-archive-header__input button {
+  margin-left: 1.2rem;
+  font-size: 1.4rem;
+}
+.tsa-news-archive-header__filter-wrapper {
+  margin-bottom: 2rem;
+  display: block;
+}
+.tsa-news-archive-header__filter span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.tsa-news-archive-header__filter select {
+  border-radius: .6rem;
+  border: 1px solid var(--color-gray-medium);
+  font-size: 1.6rem;
+  padding: .9rem 1.6rem;
+  width: 60%;
+}
+.tsa-news-archive-header__filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.tsa-news-archive-header__check-filter {
+  display: flex;
+  align-items: center;
+}
+.tsa-news-archive-header__check-filter span {
+  margin-left: 1rem;
+}
+.tsa-news-archive-header__back-btn {
+  display: flex;
+  align-items: center;
+}
+.tsa-news-archive-header__back-btn i {
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+}
+.tsa-news-archive-header__back-btn a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem
+}
+
+@media (max-width: 769px) {
+  .tsa-news-archive-header__form-wrapper {
+    width: 100%;
+  }
+  .tsa-news-archive-header__form-wrapper .input {
+    width: 100%;
+  }
+  .tsa-news-archive-header__filter-wrapper {
+    width: 100%;
+  }
+  .tsa-news-archive-header__input {
+    flex-direction: column;
+  }
+  .tsa-news-archive-header__title {
+    margin-top: 4rem;
+  }
+  .tsa-news-archive-header__input button {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  .tsa-news-archive-header__filter select {
+    width: 100%;
+  }
+  .tsa-news-archive-header__title h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+}

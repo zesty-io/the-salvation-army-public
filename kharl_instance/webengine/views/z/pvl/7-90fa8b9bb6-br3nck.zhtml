@@ -1,0 +1,170 @@
+<div className={styles.pvlRoot}>
+	<hero-module
+  title="Newsroom"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Subtitle of the hero goes here"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        All News
+      </button>
+      <button
+        type="button"
+        class="btn btn--small btn--dark--outline"
+      >
+        PR Contact
+      </button>
+    </div>
+  </div>
+</hero-module>
+	<div class="row" style="display:block" className={styles.pvlRow}>
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<tsa-stories>
+      <h1 slot="title" class="tsa-title">Featured Salvation Army Augusta Capital Region Corps Stories</h1>
+      <div>
+      <tsa-stories-single>
+          <h2 slot="heading">[FPO] Title</h2>
+          <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+          <span class="card__date" data-date="2024-05-03" slot="date"></span>
+          <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+          <a slot="link" href="#" class="btn btn--small btn--dark--outline">[FPO] Read More1</a>   
+      </tsa-stories-single>
+      <tsa-stories-single>
+          <h2 slot="heading">[FPO] Title</h2>
+          <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+          <span class="card__date" data-date="2024-05-03" slot="date"></span>
+          <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+          <a slot="link" href="#" class="btn btn--small btn--dark--outline">[FPO] Read More1</a>   
+      </tsa-stories-single>
+      <tsa-stories-single>
+          <h2 slot="heading">[FPO] Title</h2>
+          <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+          <span class="card__date" data-date="2024-05-03" slot="date"></span>
+          <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+          <a slot="link" href="#" class="btn btn--small btn--dark--outline">[FPO] Read More1</a>   
+      </tsa-stories-single>
+      </div>
+      <div slot="link" class="stories-link"><a href="#">View All Stories</a></div>
+    </tsa-stories>
+		</div>
+	</div>
+	<div class="row" style="background-color:#AFB7BB;" classname="{styles.pvlRow}">
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<tsa-stories>
+      <h1 slot="title" class="tsa-title">Featured Salvation Army Augusta Capital Region Corps Stories</h1>
+      <div>
+      <tsa-stories-single>
+          <h2 slot="heading">[FPO] Title</h2>
+          <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+          <span class="card__date" data-date="2024-05-03" slot="date"></span>
+          <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+          <a slot="link" href="#" class="btn btn--small btn--dark--outline">[FPO] Read More1</a>   
+      </tsa-stories-single>
+      <tsa-stories-single>
+          <h2 slot="heading">[FPO] Title</h2>
+          <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+          <span class="card__date" data-date="2024-05-03" slot="date"></span>
+          <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+          <a slot="link" href="#" class="btn btn--small btn--dark--outline">[FPO] Read More1</a>   
+      </tsa-stories-single>
+      <tsa-stories-single>
+          <h2 slot="heading">[FPO] Title</h2>
+          <div class="card__content" slot="content"><p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut</p></div>
+          <span class="card__date" data-date="2024-05-03" slot="date"></span>
+          <img slot="imageURL" src="https://w1w702z1.media.zestyio.com/image-sample-full.jpg" alt="sample image" />
+          <a slot="link" href="#" class="btn btn--small btn--dark--outline">[FPO] Read More1</a>   
+      </tsa-stories-single>
+      </div>
+      <div slot="link" class="stories-link"><a href="#">View All Stories</a></div>
+    </tsa-stories>
+		</div>
+	</div>
+	<hero-module
+  title="Annual Reports"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="[FPO]  Learn about the Salvation Army’s annual impact"
+  lightMode="true"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        Annual Reports
+      </button>
+
+    </div>
+  </div>
+</hero-module>
+	<hero-module
+  title="Tell Us A Story"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Have you seen the transforming power of The Salvation Army at work in your community? We want to hear – and share – your story"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        Share a Story
+      </button>
+    </div>
+  </div>
+</hero-module>
+	<div class="row" style="background-color:#EFF1F0;" classname="{styles.pvlRow}">
+		<div class="row" style="block" className={styles.pvlColumn}>
+			<tsa-hero-text heading="PR Contact">
+      <p>John Smith</p>
+      <p>John.Smith@usc.salvationarmy.org</p>
+      <p>(123) 456-7890</p>
+    </tsa-hero-text>
+		</div>
+	</div>
+	<tsa-image-text-list>
+      <h1 slot="title" class="tsa-title">Salvation Army Publications</h1>
+      <div slot="content">
+        <tsa-image-text-top-module imagePosition="right" image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+            <div class="tsa-image-text-content">
+                <span class="tsa-title text-center fw-bold fs-4 d-block">Volunteer as a Bell Ringer</span>
+                <p class="tsa-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn btn--fullWidth btn--dark--outline">View Website</button>
+            </div>
+        </tsa-image-text-top-module>
+        <tsa-image-text-top-module imagePosition="right" image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+            <div class="tsa-image-text-content">
+                <span class="tsa-title text-center fw-bold fs-4 d-block">Volunteer as a Bell Ringer</span>
+                <p class="tsa-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn btn--fullWidth btn--dark--outline">View Website</button>
+            </div>
+        </tsa-image-text-top-module>
+        <tsa-image-text-top-module imagePosition="right" image="https://mgfrnv8q.media.zestyio.com/Vector.png" alt="Placeholder image">
+            <div class="tsa-image-text-content">
+                <span class="tsa-title text-center fw-bold fs-4 d-block">Volunteer as a Bell Ringer</span>
+                <p class="tsa-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn btn--fullWidth btn--dark--outline">View Website</button>
+            </div>
+        </tsa-image-text-top-module>
+      </div>
+    </tsa-image-text-list>
+</div>

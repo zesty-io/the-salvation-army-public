@@ -1,0 +1,134 @@
+<div className={styles.pvlRoot}>
+	<hero-module
+  title="Marketing Message/Key Moments/Events"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Subtitle of the hero goes here"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+    </div>
+  </div>
+</hero-module>
+	
+<stats-module title="[FPO] Stats/Facts">
+  <div slot="content">
+    <div id="content">
+      <stat-image-card-module
+        class="mb-4"
+        title="[FPO] 1,000,000 Meals Served"
+        imageUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+      >
+        <p class="tsa-text">
+          Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididun ut labore et dolore magna aliqua. Ut
+        </p>
+      </stat-image-card-module>
+      <stat-image-card-module
+        title="[FPO] 1,000,000 Meals Served"
+        imageUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+      >
+        <p class="tsa-text">
+          Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididun ut labore et dolore magna aliqua. Ut
+        </p>
+      </stat-image-card-module>
+      <stat-image-card-module
+        title="[FPO] 1,000,000 Meals Served"
+        imageUrl="https://w1w702z1.media.zestyio.com/image-sample-full.jpg"
+      >
+        <p class="tsa-text">
+          Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididun ut labore et dolore magna aliqua. Ut
+        </p>
+      </stat-image-card-module>
+    </div>
+
+    <div id="cta">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--outline"
+      >
+        Learn More
+      </button>
+    </div>
+  </div>
+</stats-module>
+	 <local-needs-module
+  title="[FPO] How we Meet Local Needs"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+>
+  <local-need-module>
+    <tsa-text-with-icon
+      slot="title"
+      bootstrapIcon="image"
+      title="[FPO] Title"
+    ></tsa-text-with-icon>
+    <p slot="content">
+      Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididun ut labore et dolore magna aliqua. Ut
+    </p>
+  </local-need-module>
+  <local-need-module>
+    <tsa-text-with-icon
+      slot="title"
+      bootstrapIcon="image"
+      title="[FPO] Title"
+    ></tsa-text-with-icon>
+    <p slot="content">
+      Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididun ut labore et dolore magna aliqua. Ut
+    </p>
+  </local-need-module>
+  <local-need-module>
+    <tsa-text-with-icon
+      slot="title"
+      bootstrapIcon="image"
+      title="[FPO] Title"
+    ></tsa-text-with-icon>
+    <p slot="content">
+      Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididun ut labore et dolore magna aliqua. Ut
+    </p>
+  </local-need-module>
+</local-needs-module>
+	<hero-module
+  title="Marketing Message/Key Moments/Events"
+  imageUrl="https://mgfrnv8q.media.zestyio.com/Vector.png"
+  subtitle="Subtitle of the hero goes here"
+>
+  <div
+    slot="cta"
+    class="cta"
+  >
+    <div class="cta__secondary">
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+      <button
+        type="button"
+        class="btn btn--small btn--dark--fill"
+      >
+        CTA
+      </button>
+    </div>
+  </div>
+</hero-module>
+</div>

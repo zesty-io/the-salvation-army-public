@@ -1,0 +1,52 @@
+<style>
+    ul.sectionLinks {
+        overflow: auto;
+        max-height: 250px;
+    }
+</style>
+<div id="schema" class="fixed-bottom shadow rounded m-3 overflow-hidden">
+    <hr class="mb-0 pb-0 fixed-bottom" />
+    <div class="bg-light mt-6">
+        <div class="bg-dark p-2 schema-header d-flex justify-content-between">
+            <strong class="text-light">Salvation Army Developer Tool</strong>
+            <button id="close-btn" class="bg-transparent text-light border-0">X</button>
+        </div>
+        <div class="row p-4 pb-2">
+           
+            <div class="col d-flex">
+                <table class="schema-table table table-bordered border-grey">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="fw-bold">Metric</th>
+                            <th scope="col" class="fw-bold">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Title</strong></td>
+                            <td>{{this.seo_meta_title}}</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Description</strong></td>
+                            <td><small>{{this.seo_meta_description}}</small></td>
+                        </tr>
+                        <tr>
+                            <td><strong>URL</strong></td>
+                            <td>{{this.path_part}}</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+             <div class="col">
+                {{site.sectionlinks(2)}}
+            </div>
+            
+        </div>
+    </div>
+</div>
+<script>
+    document.getElementById('close-btn').addEventListener('click', function() {
+      document.getElementById('schema').style.display = 'none';
+    });
+</script>

@@ -1,0 +1,18 @@
+.tsa-title {
+    font-size: 2.8rem;
+    font-family: "Cinzel", serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+@media (min-width: 840px) {
+    .tsa-title {
+        font-size: 3.8rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .tsa-title {
+        font-size: 4.8rem;
+    }
+}
